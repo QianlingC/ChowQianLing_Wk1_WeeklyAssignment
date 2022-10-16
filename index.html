@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weekly Assignment 1</title>
+  </head>
+
+  <body>
+    <h3>Generate a Random Number</h3>
+    <form>
+    <button type="button" onclick="randomNumber()">Click for a Random Number</button>
+    </form>
+    <p id="rand"></p>
+
+
+
+    <h3>ATM Machine</h3>
+    <form method = 'post'>
+      <label>Please enter your pin number:</label>
+      <input type = "text" id="pin" />
+      <button type="button"onclick="submitPin()">Submit PIN</button>
+      <p id="demo"> </p>
+      <br>
+
+      <div id="display" style="display:none;">
+      <label>Saving Account Balance</label>
+      <p id="savings"></p>
+      <br />
+      <label>Current Account Balance</label>
+      <p id="current"></p>
+      </div>
+    </form>
+
+
+    <h3>Input into Objects</h3>
+    <form>
+      <label>First Name:<label>
+        <input id="firstname" type="text">
+        <br>
+        <label>Middle Name:<label>
+          <input id="middlename" type="text">
+          <br>
+        <label>Last Name:<label>
+        <input id="lastname" type="text">
+        <br>
+        <button type="button" onclick="jsonbtn()" >Click to convert input to JSON</button>
+    </form>
+    <p id="jsontext"></p>
+
+   
+    <script src="js/week1.js"></script>
+  </body>
+</html>
